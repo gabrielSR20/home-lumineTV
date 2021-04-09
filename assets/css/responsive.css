@@ -1,0 +1,143 @@
+@media only screen and (min-width: 880px) {
+    .home {
+        background: url(../images/bg_novo_3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 720px;
+        position: relative;
+        
+    }
+
+    .home::before{
+        content: "";
+        display: block;
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .container {
+        width: 95%;
+        max-width: 1165px;
+    }
+
+    .home-header-section {
+        padding-top: 30px;
+    }
+
+    .menu {
+        background: none;
+        position: static;
+        padding: 0;
+
+        overflow: unset;
+    }
+
+    .menu > ul {
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu li,
+    .menu li:first-child {
+        margin: 0;
+        margin-right: 30px;
+    }
+
+    .menu li:last-child {
+        display: flex;
+        margin-right: 0;
+    }
+
+    .header-links {
+        color: #FEF200;
+        font-weight: normal;
+        font-size: 1em;
+    }
+
+    .login {
+        background: #2c2c2c;
+        padding: .35em 2.3em;
+        border-radius: .25em;
+
+        text-transform: uppercase;
+        color: #989898;
+    }
+
+    .button-open,
+    .button-close {
+        display: none;
+    }
+
+    .cta-1 {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: relative;
+
+        margin-top: 110px;
+    }
+
+    .widget {
+        margin: 0;
+        width: 35%;
+    }
+
+    .box-1 {
+        display: flex;
+    }
+
+    .box-2 {
+        width: 60%;
+        max-width: 663px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .box-3 {
+        width: 38%;
+    }
+
+    .paragraph-h1,
+    .image-widget {
+        margin: 0;
+    }
+
+    .image-widget {
+       
+        margin: 0;
+        width: 100%;
+        max-width: 664px;
+    }
+
+    .paragraph-h1 {
+        text-align: left;
+        max-width: 100%;
+        font-size: 2.25em;
+    }
+
+    .paragraph-h2 {
+        text-align: left;
+    }
+
+    .button-call {
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+
+@media only screen and (max-width: 330px) {
+    .button-call a {
+        padding: .5em 1em;
+        font-size: 1em;
+        width: 100%;
+    }
+}
